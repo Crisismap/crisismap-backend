@@ -19,4 +19,4 @@ Main responsibilities:
 
 ![scheme](https://docs.google.com/drawings/d/e/2PACX-1vQ0tFA_ZM6B7CsPcxP1OVZ50uVSUYdDRZqId3sOe1Y09sm37J3Np_BqaNOQ8CtG5lIgEM_2tELEpUuO/pub?w=1179&h=625)
 
-Collaboration is appreciated: https://docs.google.com/drawings/d/1si-qixc4DaAZSoZk4lG2gf0ZoV-_3Bfk2v0QR7w1q24/
+Collaboration is appreciated: [gDoc](https://docs.google.com/drawings/d/1si-qixc4DaAZSoZk4lG2gf0ZoV-_3Bfk2v0QR7w1q24/)
