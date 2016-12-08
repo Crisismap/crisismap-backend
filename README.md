@@ -2,11 +2,11 @@
 
 ## Purpose
 
-Ideally, almost a logic-less proxying service acting in the middle of DB (supplied by **workers**) and **clients**.
+Ideally, almost a logic-less proxying service acting in the middle of DB (data is gathered from **sources**, supplied by **providers**) and **clients**.
 
 If some comprehensive business logic appears, it could potentially be associated with this service.
 
-All data gathering/parsing/transforming/storing logic should be up to corresponding **workers**.
+All data fetching/parsing/transforming/storing logic should be up to corresponding **providers**.
 
 **Client**, on the other hand, is aimed for data representation and UX/UI (map/clustering + filtering/pagination).
 So the API itself acts "as a client", meaning serving JSON instead of explicit UI capabilities.
