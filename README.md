@@ -1,22 +1,9 @@
 # Crisismap back-end
 
-## Purpose
+(see https://github.com/Crisismap/crisismap-docs for generic scheme and explanation)
 
-Ideally, almost a logic-less proxying service acting in the middle of DB (data is gathered from **sources**, supplied by **providers**) and **clients**.
+## Tech stack
 
-If some comprehensive business logic appears, it could potentially be associated with this service.
+<!-- add URLs over here -->
 
-All data fetching/parsing/transforming/storing logic should be up to corresponding **providers**.
-
-**Client**, on the other hand, is aimed for data representation and UX/UI (map/clustering + filtering/pagination).
-So the API itself acts "as a client", meaning serving JSON instead of explicit UI capabilities.
-
-Main responsibilities:
-* internally: storage accessor and data mapper
-* externally: RESTful API wrapper for **clients** (e.g. `crisismap-frontend` and possible mobile natives)
-
-## Generic scheme
-
-![scheme](https://docs.google.com/drawings/d/e/2PACX-1vQ0tFA_ZM6B7CsPcxP1OVZ50uVSUYdDRZqId3sOe1Y09sm37J3Np_BqaNOQ8CtG5lIgEM_2tELEpUuO/pub?w=1179&h=625)
-
-Collaboration is appreciated: [gDoc](https://docs.google.com/drawings/d/1si-qixc4DaAZSoZk4lG2gf0ZoV-_3Bfk2v0QR7w1q24/)
+* Flask <- python micro-framework
