@@ -17,14 +17,14 @@ CREATE TABLE test.news_rss
   is_localized boolean,
   debug_output text,
   phrases text,
-  CONSTRAINT news_rss_pkey PRIMARY KEY (id)
+  CONSTRAINT news_rss_pkey PRIMARY KEY (id),
+  CONSTRAINT news_rss_guid_key UNIQUE (guid)
 )
 WITH (
   OIDS=FALSE
 );
 ALTER TABLE test.news_rss
   OWNER TO postgres;
-
   
   
 
